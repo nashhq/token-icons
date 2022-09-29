@@ -12,8 +12,7 @@ import {
 
 const App: React.FC<unknown> = () => {
   const isSM = useMediaQuery('xs')
-  const gh = 'https://github.com/geist-org/react'
-  const docs = 'https://react.geist-ui.dev'
+  const gh = 'https://github.com/nashhq/token-icons'
   const redirect = (url: string) => {
     window.open(url)
   }
